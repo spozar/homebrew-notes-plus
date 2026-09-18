@@ -8,10 +8,14 @@ releases themselves live in
 ## Install
 
 ```bash
+brew tap spozar/notes-plus
+brew trust --cask spozar/notes-plus/notes-plus
 brew install --cask spozar/notes-plus/notes-plus
 ```
 
-That taps this repository and installs the latest release into `/Applications`.
+Homebrew 6 won't load a cask from a tap it doesn't maintain until you have
+vouched for it with `brew trust`, once. After that the install goes into
+`/Applications` like any other cask.
 Notes+ needs macOS 14 (Sonoma) or later, and the build is a universal,
 Developer ID signed and notarised binary.
 
