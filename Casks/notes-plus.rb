@@ -4,7 +4,7 @@ cask "notes-plus" do
 
   url "https://github.com/spozar/notes-plus-releases/releases/download/v#{version}/Notes%2B-#{version}.zip"
   name "Notes+"
-  desc "Native macOS notes app with a menu bar shortlist and a local API"
+  desc "Notes app with a menu bar shortlist and a local API"
   homepage "https://github.com/spozar/notes-plus-releases"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "notes-plus" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Notes+.app"
 
