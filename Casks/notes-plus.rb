@@ -1,6 +1,6 @@
 cask "notes-plus" do
-  version "1.17.0"
-  sha256 "07bf8ad414e3900a859d5cfe8e9dfe6abfb614e1012ada471b6d7d6b7e1db8fc"
+  version "1.17.1"
+  sha256 "64f05780e9f31d54468976c093ced4b5549f6659c1a2faf105e4bc467b70904e"
 
   url "https://github.com/spozar/notes-plus-releases/releases/download/v#{version}/Notes%2B-#{version}.zip"
   name "Notes+"
